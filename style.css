@@ -1,0 +1,104 @@
+/* GENERAL STYLE */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("Spirt-of-Detroit.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+p {
+  font-size: 24px;
+  color: rgb(228, 13, 60);
+}
+p {
+  margin-bottom: 12px;
+}
+/* BUTTONS AND MODALS */
+.btn-modals {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0 72px 0;
+}
+button {
+  font-size: 25px;
+  background-color: aqua;
+  border-radius: 1000px;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+}
+
+/* INTRO SECTION INFORMATION */
+.social-link-icons {
+ 
+}
+.selfie {
+  border-radius: 50%;
+  width: 300px;
+}
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+.intro-text {
+  width: 60%;
+}
+
+.skills {
+  list-style: none;
+  font-size: 18px;
+  color: aliceblue;
+  padding-bottom: 18px;
+}
+/* HIDDEN UNTIL NEEDED */
+.coding-section,
+.content,
+.photo {
+  display: none;
+}
+
+/* MODAL STUFF */
+.modal,
+.modal2,
+.modal3 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-hidden,
+.modal-hidden2,
+.modal-hidden3 {
+  display: none;
+}
+.modal-web-creations,
+.modal-photo-gallery,
+.web-app-modal {
+  background-color: white;
+  padding: 36px;
+  border: 2px solid black;
+}
+.modal-close-bar,
+.modal-close-bar2,
+.modal-close-bar3 {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.omni-img {
+  width: 300px;
+  height: 300px;
+}
+
+.intro

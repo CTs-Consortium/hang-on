@@ -1,0 +1,25 @@
+/* GENERAL STYLE */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("Spirt-of-Detroit.jpg");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+p {
+  font-size: 24px;
+  color: rgb(228, 13, 60);
+}
+/* LINKS AND OTHER MISC */
+
+.back-home {
+  border-radius: 1000px;
+  padding: 24px;
+  border: none;
+}
