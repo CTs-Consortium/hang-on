@@ -36,7 +36,10 @@ button {
 
 /* INTRO SECTION INFORMATION */
 .social-link-icons {
- 
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: center;
+ /* padding: 16px; */
 }
 .selfie {
   border-radius: 50%;
@@ -45,12 +48,21 @@ button {
 .intro {
   display: flex;
   justify-content: space-evenly;
+  padding: 18px;
  
 }
-.intro-text {
-  width: 60%;
+.intro div{
+  padding: 12px;
 }
-
+.intro-text {
+  /* width: 55%; */
+  display: inline-flex;
+  align-items: center;
+}
+.quick-intro p {
+  /* width: 75%; */
+  font-size: 24x;
+}
 .skills {
   list-style: none;
   font-size: 18px;
