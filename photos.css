@@ -1,4 +1,23 @@
-.splide__slide img {
-  width: 100%;
-  height: auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.photo-list-new {
+  position: relative;
+  width: 75%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-btn {
+  position: absolute;
+  z-index: 2;
+}
+.right {
+  right: 0;
+}
+.left {
+  left: 0;
 }
