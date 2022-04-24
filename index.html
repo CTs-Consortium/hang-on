@@ -100,14 +100,14 @@
       <div class="img-self">
         <h1>Meet the Developer</h1>
           <img class="selfie" src="selfie.jpg" alt="" />
+          <div class="quick-intro">
+            <p> <em> <strong>  Name</strong></em> <br> Kazeem Todd</p>
+            <p><em> <strong>Located</strong></em> <br> Detroit, Michigan</p>
+            <p><em> <strong>Skills</strong></em> <br> HTML, CSS, JavaScript</p>
+          </div>
         </div>
         <div class="intro-text">
-          <div class="quick-intro">
-
-            <p>Name: <br> Kazeem Todd</p>
-            <p>Located: <br> Detroit, Michigan</p>
-            <p>Skills: <br> HTML, CSS, JavaScript</p>
-          </div>
+          
           <div class="detail-intro">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus at ratione id sit iure impedit quam nisi sequi eveniet delectus? Quae voluptatum neque rerum libero soluta sint, quos aspernatur magni.
           At necessitatibus consequatur cumque nemo. Ab nesciunt qui fugit. Eaque enim consequuntur hic distinctio beatae perspiciatis architecto soluta neque deleniti quaerat dignissimos eveniet in, fuga nemo a porro ab nam.
@@ -115,17 +115,30 @@
   </div>
   </div>
 </div>
-      <div class="contact-form">
-        <form action="contact me">
-          <label for="name">Name:</label>
-          <input type="text" value="J. Doe" />
-          <label for="email">E-mail:</label>
-          <input type="text" value="e-mail" />
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
+      
     </section>
-
+<section class="contact-me">
+  <div class="contact-form">
+    <form action="contact me">
+      <div>
+        <label class="input-label" for="name">Name:</label>
+        <input class="placeholder" type="text" value="J. Doe" />
+      </div>
+      <div>
+        <label class="input-label" for="email">E-mail:</label>
+        <input class="placeholder" type="text" value="e-mail" />
+      </div>
+      <div>
+        <textarea name="comments" class="comments" >
+          Hey... say something!
+          </textarea>
+        </div>
+        <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </div>
+</section>
     <!-- these are my modal section info. figure it out dawg! -->
     <div class="modal modal-hidden"></div>
 
