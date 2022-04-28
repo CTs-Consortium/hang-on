@@ -4,20 +4,20 @@
   box-sizing: border-box;
 }
 
-.photo-list-new {
-  position: relative;
-  width: 75%;
-  height: 100%;
-  object-fit: cover;
+/* .heading {
+  /* background-image: url("100-7697-min.JPG");
+
+  /* overflow: hidden; */
+/* background-repeat: no-repeat;
+  background-size: cover; */
+/* } */
+
+.photo-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 12px;
 }
 
-.photo-btn {
-  position: absolute;
-  z-index: 2;
-}
-.right {
-  right: 0;
-}
-.left {
-  left: 0;
+.grid-item {
+  height: 50%;
 }

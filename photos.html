@@ -24,155 +24,24 @@
     <link rel="stylesheet" href="photos.css" />
   </head>
   <body>
-    <!-- <nav class="nav--page--links">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="websites.html">My Website Creations</a></li>
-        <li><a href="gaming.html">Content</a></li>
-      </ul>
-    </nav> -->
-    <!-- <h1>CAT Photography</h1>
+    <section class="heading">
+      <h1>Welcome to <em>Kaz's Gallery</em></h1>
+    </section>
 
-    <p>
-      Photography isn't something I ever thought I would try out. In fact, I
-      dont even like taking pictures of myself (or having others take them of
-      me). Im learning how to <strong>PROPERLY</strong> use a camera, how to
-      optimize images for use in coding, and how to take good quality shots of
-      my target. It's something that will likely be easier during the warmer
-      months, but it would be a lie if I said that wintertime photography doesnt
-      hold its own special appeal as well. Here are a few of my first attempts
-      at photography. no edits, only compression. All the following images are
-      sill fairly raw.
-    </p> -->
-
-    <section aria-label="Newest Photos" class="img-carousel">
-      <div class="photo-track">
-        <button class="left photo-btn">
-          <svg
-            width="24"
-            height="24"
-            xmlns="http://www.w3.org/2000/svg"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-          >
-            <path
-              d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11zm-4.828 11.5l4.608 3.763-.679.737-6.101-5 6.112-5 .666.753-4.604 3.747h11.826v1h-11.828z"
-            />
-          </svg>
-        </button>
-        <button class="right photo-btn">
-          <svg
-            width="24"
-            height="24"
-            xmlns="http://www.w3.org/2000/svg"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-          >
-            <path
-              d="M12 0c-6.623 0-12 5.377-12 12s5.377 12 12 12 12-5.377 12-12-5.377-12-12-12zm0 1c-6.071 0-11 4.929-11 11s4.929 11 11 11 11-4.929 11-11-4.929-11-11-11zm4.828 11.5l-4.608 3.763.679.737 6.101-5-6.112-5-.666.753 4.604 3.747h-11.826v1h11.828z"
-            />
-          </svg>
-        </button>
-        <ul class="photo-list-new">
-          <li class="photo-slide memorial hidden">
-            <img
-              src="compressedImages\100_7673-min.JPG"
-              alt="Heartfelt Memorial"
-            />
-          </li>
-          <li class="photo-slide snow-day hidden">
-            <img src="compressedImages\100_7687-min.JPG" alt="Snowy Day" />
-          </li>
-          <li class="photo-slide party-store hidden">
-            <img
-              src="compressedImages\100_7674-min.JPG"
-              alt="The Party Store"
-            />
-          </li>
-        </ul>
+    <section class="photo-gallery">
+      <div class="photo-grid-container">
+        <div class="grid-item"><img src="100_7673-min.JPG" alt="" /></div>
+        <div class="grid-item"><img src="100_7674-min.JPG" alt="" /></div>
+        <div class="grid-item"><img src="100_7675-min.JPG" alt="" /></div>
+        <div class="grid-item"><img src="100_7676-min.JPG" alt="" /></div>
+        <div class="grid-item"><img src="100_7677-min.JPG" alt="" /></div>
+        <div class="grid-item"><img src="100_7683-min.JPG" alt="" /></div>
+        <div class="grid-item"><img src="100_7684-min.JPG" alt="" /></div>
+        <div class="grid-item"><img src="100_7685-min.JPG" alt="" /></div>
       </div>
     </section>
 
-    <!-- <section id="image-carousel" class="splide" aria-label="Beautiful Images">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide">
-            <img src="compressedImages\100_7676-min.JPG" alt="School Grounds" />
-          </li>
-          <li class="splide__slide">
-            <img
-              src="compressedImages\100_7677-min.JPG"
-              alt="School Grounds 2"
-            />
-          </li>
-          <li class="splide__slide">
-            <img src="compressedImages\100_7683-min.JPG" alt="Snowy Streets" />
-          </li>
-        </ul>
-      </div>
-    </section> -->
-
-    <!-- <section class="photo blog">
-      <div class="pic--carousel">
-        <button class="carousel-btn previous">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.58 0l5.988-5.995 1.414 1.416-4.574 4.579 4.574 4.59-1.414 1.416-5.988-6.006z"
-            />
-          </svg>
-        </button>
-        <button class="carousel-btn next">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.568 18.005l-1.414-1.415 4.574-4.59-4.574-4.579 1.414-1.416 5.988 5.995-5.988 6.005z"
-            />
-          </svg>
-        </button>
-        <ul class="new-photos">
-          <li class="slide initial hidden">
-            <img
-              src="compressedImages/100_7673-min.JPG"
-              alt="Mural for Tommie"
-            />
-          </li>
-          <li class="slide hidden">
-            <img
-              src="compressedImages\100_7674-min.JPG"
-              alt="Imperial Liquor Store"
-            />
-          </li>
-          <li class="slide hidden">
-            <img src="compressedImages\100_7675-min.JPG" alt="Calvert St" />
-          </li>
-        </ul>
-      </div>
-    </section> -->
-    <!-- 
-    <h2>Photography with CAT</h2>
-    <h3>Winter in Detroit</h3>
-    <div class="pic--grid">
-      <img src="compressedImages\100_7676-min.JPG" alt="School Grounds" />
-      <img src="compressedImages\100_7677-min.JPG" alt="School Grounds 2" />
-      <img src="compressedImages\100_7683-min.JPG" alt="Snowy Streets" />
-      <img src="compressedImages\100_7684-min.JPG" alt="Snowy Streets 2" />
-      <img src="compressedImages\100_7685-min.JPG" alt="Snowy Streets 3" />
-      <img src="compressedImages\100_7686-min.JPG" alt="Snowy Streets 4" />
-      <img src="compressedImages\100_7687-min.JPG" alt="Snowy Stop Light" />
-    </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"></script>
-    <script>
-      new Splide("#image-carousel").mount();
-    </script>
   </body>
 </html>
