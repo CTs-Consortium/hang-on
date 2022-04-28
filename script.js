@@ -80,7 +80,7 @@ modalsContainer.addEventListener("click", function (e) {
       <li><a href="websites.html">click here </a></li>
       <img
         class="omni-img"
-        src="compressedImages/omni_screenshot-min.png"
+        src="omni_screenshot-min.png"
         alt=""
       />
       </div>`;

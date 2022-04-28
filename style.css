@@ -6,7 +6,7 @@
 }
 body {
   background-image: url("Spirt-of-Detroit.jpg");
-  overflow: hidden;
+  /* overflow: hidden; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -14,7 +14,7 @@ body {
 h1,
 p {
   font-size: 24px;
-  color: rgb(228, 13, 60);
+  color: #c1edcc;
 }
 p {
   margin-bottom: 12px;
@@ -27,19 +27,22 @@ p {
 }
 button {
   font-size: 25px;
-  background-color: aqua;
+  background-color: #a7a7a9;
   border-radius: 1000px;
   cursor: pointer;
   border: none;
   padding: 10px;
+  opacity: 0.8;
 }
 
 /* INTRO SECTION INFORMATION */
 .social-link-icons {
   display: inline-flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   /* padding: 16px; */
+  background-color: #a7a7a9;
+  opacity: 0.8;
 }
 .selfie {
   border-radius: 50%;
@@ -119,4 +122,24 @@ button {
 .contact-me {
   display: flex;
   justify-content: center;
+}
+
+.detail-intro {
+  background-color: #a7a7a9;
+  /* opacity: 0.8; */
+}
+
+.comments,
+.placeholder {
+  background-color: #a7a7a9;
+  opacity: 0.8;
+  color: #c1edcc;
+}
+
+.nav-btns {
+  color: #c1edcc;
+}
+
+svg {
+  fill: #c1edcc;
 }
